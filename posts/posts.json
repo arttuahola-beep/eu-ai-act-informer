@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-09-25",
+    "lens": "Financial institutions",
+    "headline": "High-risk AI needs real human oversight",
+    "source": "Article 14 of Regulation (EU) 2024/1689, along with the European Commission's AI Act Service Desk summary.",
+    "path": "posts/2026-09-25/",
+    "body": "High-risk AI under the EU AI Act can't be set up and left alone. Article 14 requires real human oversight for the whole time the system is in use. Today's angle is for a financial institution running credit scoring or another high-risk tool listed in Annex III, the Act's list of high-risk use cases.\n\nThe provider has to design the system so people can actually oversee it, either through controls built into the system or through measures the bank puts in place itself. The people doing that oversight need to understand what the system can't do and notice when something looks off. They also need to watch for automation bias, which is the habit of trusting the model's recommendation too readily, and to read its output correctly. Finally, they must be able to ignore, override, or reverse a decision, and to stop the system safely.\n\nIn practice, give this job to named, trained people who have real authority and the time and resources to use it. Article 26, which sets out the bank's own duties as the user of the system, backs this up. Then test that override and stop actually work inside a live credit workflow, because a review where someone just approves whatever the model says doesn't count as oversight."
+  },
+  {
+    "date": "2026-09-24",
+    "lens": "Online retail",
+    "headline": "Social scoring of customers is banned",
+    "source": "",
+    "path": "posts/2026-09-24/",
+    "body": "Social scoring of customers with AI is banned under Article 5(1)(c) of the EU AI Act — and that ban already applies to private retailers, not only governments. Lens: online consumer-goods retailer.\n\nIf you build a long-lived “customer quality” or trust score from browsing, returns, complaints, or inferred personality traits, and then use it to deny offers, throttle support, or worsen terms in a different context (or in a way that is disproportionate to the behaviour), you are in prohibited-practice territory. Purpose-bound evaluation for a lawful, specific use (for example, ordinary fraud checks or a transparent loyalty programme) is different; cross-context score-and-punish systems are the red flag. Audit any multi-signal customer ranking tools now — the prohibition has been in force since 2 February 2025."
+  },
+  {
+    "date": "2026-09-23",
+    "lens": "Online retail",
+    "headline": "AI chatbots must say they are AI from the first message",
+    "source": "",
+    "path": "posts/2026-09-23/",
+    "body": "Customer-facing AI chatbots must disclose that the shopper is talking to AI by the first message — not buried in the terms. For online consumer-goods retailers: under Article 50(1) and (5) of the EU AI Act (Regulation (EU) 2024/1689), providers of systems meant to interact directly with people have to design that disclosure in; it must be clear, distinguishable, and accessible at the latest at the first interaction. A line in the T&Cs or a bot name that still sounds human is not enough. The narrow exception is only when the AI nature is obvious to a reasonably well-informed, observant person in that context — do not lean on it for a polished support chat. These transparency duties have applied since 2 August 2026, independent of high-risk classification. Practical check: open your returns or product-help chat as a first-time customer and confirm the first reply (or spoken line) plainly states they are interacting with an AI system."
+  },
+  {
+    "date": "2026-09-22",
+    "lens": "Financial institutions",
+    "headline": "Credit scoring is high-risk AI",
+    "source": "",
+    "path": "posts/2026-09-22/",
+    "body": "Under Annex III point 5(b) of the EU AI Act, AI used to evaluate a natural person’s creditworthiness or to set their credit score is high-risk. That catches personal loans, mortgages, credit-card limits, and buy-now-pay-later approvals — not only a classic bureau score.\n\nThere is one clear carve-out: AI used for detecting financial fraud. In practice, banks often blend scoring, fraud checks, and bureau data in one pipeline. If the system’s purpose includes creditworthiness, the high-risk label usually applies end to end — the fraud exception does not save a combined decisioning stack.\n\nIf you buy or license a third-party scoring model, you remain the deployer for the credit decision. That brings deployer duties (human oversight, logging, instructions for use) and, for this use case, a fundamental-rights impact assessment before putting the system into use.\n\nPractical move: inventory every model that touches credit decisions, separate pure fraud tools from scoring where you can, and label who is the provider vs deployer for each."
+  }
+]
