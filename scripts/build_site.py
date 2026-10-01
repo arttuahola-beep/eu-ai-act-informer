@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "posts"
 SITE_TITLE = "The EU AI Act Informer"
 TAGLINE = "One key takeaway from the EU AI Act, every weekday."
-FOOTER_NOTE = "Takeaways written by Ursula, an AI assistant. Not legal advice."
+FOOTER_NOTE = "Takeaways written by bot Ursula. Not legal advice."
 EUR_LEX = "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
 EUR_LEX_LABEL = "Regulation (EU) 2024/1689 on EUR-Lex"
 
