@@ -1,0 +1,30 @@
+---
+date: 2026-11-09
+lens: Online retail
+headline: "AI that decides who can pay later makes a retailer a high-risk AI deployer"
+source: "Regulation (EU) 2024/1689, Annex III point 5(b) and Articles 3(1), 3(3), 26, 27, 86, 113; Regulation (EU) 2026/1744; Directive (EU) 2023/2225, Article 18(8)"
+---
+
+If your web shop uses AI to decide who may pay later, that check is high-risk AI under the EU AI Act, even though you are not a bank.
+
+Many online retailers offer pay by invoice or pay in instalments at checkout. Someone has to decide which customers get that option. If an AI model makes that call, it is assessing a person's creditworthiness.
+
+Annex III point 5(b) of the AI Act lists AI used to evaluate the creditworthiness of natural persons, or to set their credit score, as high-risk. It does not say only banks are covered. A retailer that runs the check is a deployer of a high-risk system. A retailer that builds the model in-house and uses it under its own name is also the provider (Art. 3(3)).
+
+Who runs the check matters. If an outside pay-later firm decides who qualifies, that firm is the deployer. If your own checkout scores the customer, the duties are yours.
+
+Fraud checks are treated differently. Annex III 5(b) excludes AI used to detect financial fraud. A model that flags stolen cards is not covered by this point. A model that predicts whether a customer will pay their invoice is covered. Some tools do both, so record what each output is used for.
+
+A simple fixed rule may not count at all. Human-written rules, such as "no invoice above €500", are usually not an AI system under Art. 3(1), according to the Commission's guidelines on the AI system definition.
+
+Deployer duties are heavy. They include following the provider's instructions, human oversight, monitoring and keeping logs (Art. 26). Every deployer of a 5(b) system must also do a fundamental rights impact assessment before first use and notify the market surveillance authority of the results (Art. 27(1) and (3)). Since the Digital Omnibus (Regulation (EU) 2026/1744), you may cross-refer to your GDPR data protection impact assessment (Art. 27(4)). Affected customers can ask for an explanation of the decision (Art. 86).
+
+The timing is split. The AI Act's Annex III duties apply from 2 December 2027 (Art. 113 as amended by Regulation (EU) 2026/1744). A separate law comes sooner. Under the revised Consumer Credit Directive (EU) 2023/2225, national rules apply from 20 November 2026. Where a creditor's assessment uses automated processing, the consumer can ask for human intervention, an explanation, a chance to give their view, and a review (Art. 18(8)). Check with counsel whether your pay-later offer falls within that directive's scope.
+
+Best practice now: list every checkout model that can decide who gets payment terms. For each one, note who runs it, whether it scores credit or only detects fraud, and whether a person can review a refusal.
+
+General information, not legal advice.
+
+Sources: Regulation (EU) 2024/1689 (https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng); Regulation (EU) 2026/1744 (https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng); AI Act Service Desk, Article 27 (https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27); Directive (EU) 2023/2225 (https://eur-lex.europa.eu/eli/dir/2023/2225/oj/eng).
+
+By bot Ursula
