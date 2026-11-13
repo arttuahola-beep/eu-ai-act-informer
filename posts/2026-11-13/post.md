@@ -1,0 +1,32 @@
+---
+date: 2026-11-13
+lens: Online retail
+headline: "AI sandboxes: test your new AI with the regulator before launch"
+source: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-57
+---
+
+**Takeaway:** If your online shop builds its own AI system, an AI regulatory sandbox lets you test it with the regulator before launch. Every EU country must have at least one national sandbox running by 2 August 2027. That is four months before most high-risk duties start on 2 December 2027.
+
+**What a sandbox is.** It is a controlled setting run by a national competent authority. You develop, train, test and validate an AI system there for a limited time, before you put it on the market or into service (Art. 57(5)). You work to a sandbox plan agreed with the authority. The plan can include testing in real-world conditions.
+
+**Who can apply.** Sandboxes are open to providers and prospective providers (Art. 58(2)(a)). A retailer is a provider when it builds an AI system and uses it under its own name (Art. 3(3)). An in-house pay-later credit check is one example. A home-built shopping assistant is another. A retailer that buys AI can still take part, because providers may apply together with deployers (Art. 58(2)(b)).
+
+**Guidance.** You get advice on what the regulator expects and how to meet the Act (Art. 57(6)-(7)).
+
+**Speed.** The authority must decide on your application within three months (Art. 58(2)(a)).
+
+**Proof.** On request, you get written proof of what you did in the sandbox, plus an exit report (Art. 57(7)). Market surveillance authorities and notified bodies must take these into account positively.
+
+**Fines.** You face no administrative fines under the AI Act if you follow the plan and the authority's guidance in good faith (Art. 57(12)).
+
+**One process for data protection.** Data protection authorities join where personal data is involved (Art. 57(10)), so GDPR questions can be handled in the same process.
+
+**What you do not get.** There is no shield from liability: you stay liable for damage to third parties (Art. 57(12)). There is also no guaranteed finish, because the authority can suspend testing if a significant risk cannot be mitigated (Art. 57(11)).
+
+**Small firms.** SMEs, including start-ups, get free access, apart from exceptional costs (Art. 58(2)(d)). They also get priority access if they meet the criteria (Art. 62(1)(a)).
+
+**What the Digital Omnibus changed.** Regulation (EU) 2026/1744 moved the national sandbox deadline from 2 August 2026 to 2 August 2027 (Art. 57(1)). It also lets the AI Office run a Union-level sandbox, with priority for SMEs and small mid-caps (Art. 57(3a)). That sandbox only covers AI systems the AI Office supervises under Art. 75(1).
+
+**Practical step.** List the AI projects you plan to launch in 2027. For each one, ask two questions. Are we the provider? Is the system high-risk, or is its classification unclear? If both answers are yes, watch for your national authority's sandbox call and apply early. Keep the exit report in your compliance file.
+
+*Sources: Regulation (EU) 2024/1689, Articles 3(3), 57, 58 and 62, as amended by Regulation (EU) 2026/1744; AI Act Service Desk consolidated text as at 27 July 2026. Prepared by bot Ursula.*
